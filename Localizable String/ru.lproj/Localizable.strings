@@ -1,0 +1,365 @@
+/* 
+  Localizable.strings
+  Mate
+
+  Created by Cro on 4/29/15.
+  Copyright (c) 2015 Wacom GmbH. All rights reserved.
+*/
+
+/* Filenames */
+
+"termsOfUseFilename" = "terms_of_use_RU";
+
+/* Global */
+"cancel" = "Отменить";
+"ok" = "OK";
+"delete" = "Удалить";
+"edit" = "Исправить";
+"library" = "Библиотека";
+"choose_action" = "Выбор действия";
+"draw" = "Рисовать";
+"split" = "Разделить";
+"merge" = "Объединение";
+"agree" = "Согласиться";
+"done" = "Готово";
+"sign_up" = "ЗАРЕГИСТРИРОВАТЬСЯ";
+"login" = "ВХОД";
+"log_out" = "Выход";
+"log_in" = "Вход";
+"exit" = "Выход";
+"retry" = "Попробовать еще раз";
+"learn_more" = "УЗНАТЬ БОЛЬШЕ";
+"not_now" = "НЕ СЕЙЧАС";
+"download" = "ЗАГРУЗКА";
+"waiting" = "Подождите...";
+"syncing" = "Идет синхронизация...";
+"generating" = "Создание";
+"NextButtonLabel" = "ДАЛЬШЕ";
+"FinishButtonLabel" = "ЗАВЕРШИТЬ";
+"StartOverHyperlinkLabel" = "НАЧАТЬ ЗАНОВО";
+"error" = "Ошибка";
+"search" = "Поиск";
+"export" = "Экспорт";
+"save" = "Сохранить";
+"forget" = "Стереть";
+"verify" = "Подтвердить";
+"use_offline" = "Автономное использование";
+"discard" = "Отменить";
+"copy" = "Копировать";
+"paste" = "Вставить";
+"cut" = "Вырезать";
+"duplicate_to_new_page" = "Дублировать на новую страницу";
+"dismiss" = "Отклонить";
+"redo" = "Вернуть";
+
+/* Alerts */
+"AlertStartOverTitle" = "НАЧАТЬ ЗАНОВО";
+"AlertStartOverMessage" = "При повторном выполнении все вводимые данные будет отменены и процесс повторно инициализирован.";
+
+"AlertServerErrorTitle" = "";
+"AlertServerErrorMessage" = "Операция не выполнена. Пожалуйста, попробуйте ещё раз.";
+
+"AlertConnectionLostTitle" = "Потеряно соединение";
+"AlertConnectionLostMessage" = "Пожалуйста, попробуйте еще раз";
+
+"AlertLowBatteryTitle" = "Низкий заряд батареи";
+"AlertLowBatteryMessage" = "Аккумулятор Bamboo smartpad разряжается. Зарядите его.";
+
+"AlertMergeNotesTitle" = "Объединение страниц";
+"AlertMergeNotesMessage" = "Объединить выбранные страницы?";
+
+"AlertDeleteNotesTitle" = "Удалить страницу";
+"AlertDeleteNotesSimpleMessage" = "Удалить выбранные страницы?";
+"AlertDeleteNotesFromCloudMessage" = "Удаление заметок из Вашей библиотеки также приводит к их удалению из Вашего рабочего пространства в Inkspace.";
+
+"AlertDeleteSingleNoteTitle" = "Удалить страницу";
+"AlertDeleteSingleNoteSimpleMessage" = "Вы уверены, что хотите удалить эту страницу?";
+
+"AlertDiscardChangesTitle" = "";
+"AlertDiscardChangesMessage" = "Отменить изменения? Все вводимые данные будут отменены.";
+
+"AlertConfirmLogoutTitle" = "Выход";
+"AlertConfirmLogoutMessage" = "Ваши локальные записи будут удалены. Вы уверены, что хотите продолжить?";
+"AlertConfirmLogoutWhileSyncingMessage" = "В настоящий момент идет синхронизация некоторого Вашего контента. Выход может привести к потере данных. Вы уверены, что хотите продолжить?";
+
+"AlertSkipCloudAccountTitle" = "Вы уверены в том, что не хотите использовать Inkspace?";
+"AlertSkipCloudAccountMessage" = "Включите синхронизацию с Inkspace и с легкостью предоставляйте общий доступ к своим заметкам и рисункам, экспортируйте их в любимые приложения и используйте другие преимущества...";
+
+"AlertNoDeviceFoundTitle" = "Устройство не найдено";
+"AlertNoDeviceFoundMessage" = "Убедитесь в том, что Ваше устройство включено и заряжено.";
+
+"AlertDeviceUnpairedTitle" = "Устройство не спарено";
+"AlertDeviceUnpairedMessage" = "Данные Вашего Bamboo smartpad будут удалены с сопряженного с ним устройства.";
+
+"AlertOfflineTitle" = "Нет соединения с интернетом";
+
+"AlertMergeOrientationErrorTitle" = "Комбинирование не разрешено";
+"AlertMergeOrientationErrorMessage" = "Комбинирование заметок с разной ориентацией не поддерживается.";
+
+"AlertBluetoothIsDisabledTitle" = "Bluetooth не выключен";
+"AlertBluetoothIsDisabledMessage" = "Включите Bluetooth, чтобы установить соединение со Bamboo smartpad";
+
+"AlertSaveErrorMessage" = "Изменения не могут быть сохранены!";
+"AlertLoadStrokesErrorMessage" = "Штрихи не были загружены!";
+
+"AlertSesionExpiredTitle" = "Сессия завершена";
+"AlertSesionExpiredErrorMessage" = "Ваш сеанс Inkspace был завершен вследствие изменения Вашего адреса электронной почты или пароля. После подтверждения этого изменения всю Вашу библиотеку необходимо синхронизировать заново, для чего сейчас будет выполнен выход из системы.";
+
+
+"AlertSignUpToUseSearchTitle" = "Необходим аккаунт";
+"AlertSignUpToUseSearchErrorMessage" = "Для пользования поиском Вам необходим аккаунт в Inkspace";
+
+"AlertNoTextMatchTitle" = "По Вашему поиску ничего не обнаружено";
+"AlertNoTextMatchErrorMessage" = "Проверьте написание или попробуйте задать другое слово";
+
+"AlertNeedsInternetTitle" = "Нет соединения с Интернетом";
+"AlertNeedsInternetToUseSearchErrorMessage" = "Для использования поиска Вам необходимо соединение с Интернетом";
+"AlertNeedsInternetToExportTextErrorMessage" = "Для экспорта текста Вам необходимо соединение с Интернетом";
+
+"AlertStorageLimitExceededTitle" = "Storage limit exceeded";
+"AlertStorageLimitExceededMessage" = "You have exceeded your storage limit on inkspace. Please remove some of your old documents to be able to synchonize your documents.";
+
+"AlertMailNotVerifiedTitle" = "Адрес электронной почты не подтвержден";
+"AlertMailNotVerifiedMessage" = "Чтобы завершить регистрацию, подтвердите свой адрес электронной почты";
+
+"AlertPastingStrokeExceedBoundsTitle" = "Слишком большой размер изображения";
+"AlertPastingStrokeExceedBoundsMessage" = "Слишком большой размер изображения для вставки, из-за чего оно не помещается на текущей странице. Попробуйте выбрать меньшую область.";
+
+"AlertDuplicatePageTitle" = "Сохранение изменений";
+"AlertDuplicatePageMessage" = "Сохранить изменения текущей страницы перед дублированием выделенной области на новую страницу?";
+
+"AlertPlanExpiredTitle" = "Срок действия подписки истек";
+"AlertPlanExpiredMessage" = "Срок действия Вашей подписки Inkspace истек, вследствие чего доступ к некоторым функциям будет ограничен";
+
+"AlertForgetDeviceTitle" = "Стереть данные об устройстве";
+"AlertForgetDeviceMessage" = "Стереть данные о соединенном устройстве?";
+
+
+
+/* Hints */
+
+"MergeHintTitle" = "Объединить две страницы в одну";
+"SplitHintTitle" = "Разделение одной станицы на несколько";
+"DragHintTitle" = "Переместить к выбранной линии времени";
+"LongPressHintTitle" = "Длительное нажатие для большей точности";
+"CreatePageHintTitle" = "Разделить страницу с этой точки";
+
+/* Months */
+
+
+"January" = "Январь";
+"February" = "Февраль";
+"March" = "Март";
+"April" = "Апрель";
+"May" = "Май";
+"June" = "Июнь";
+"July" = "Июль";
+"August" = "Август";
+"September" = "Сентябрь";
+"October" = "Октябрь";
+"November" = "Ноябрь";
+"December" = "Декабрь";
+
+/* Last Sync Days */
+"today" = "Сегодня";
+"yesterday" = "Вчера";
+
+/* ExportNotes */
+"ExportNotesExportAsText" = "Ink to text";
+"ExportNotesExportAsPNG" = "Экспорт в формат PNG";
+"ExportNotesExportAsJPG" = "Экспортировать в качестве изображения";
+"ExportNotesExportAsPDF" = "Экспортировать в качестве PDF";
+"ExportNotesExportAsWILL" = "Экспортировать в качестве WILL";
+"ExportNotesExportAsSVG" = "Преобразование данных рукописного ввода в векторный формат";
+
+"ExportNotesOpenWithCompatibleApps" = "Открыть в";
+"ExportNotesMadeWithBambooSpark" = "Made with Inkspace";
+"ExportNotesExportFileName" = "WCM";
+
+/* AgreementScreen */
+"AgreementScreenTitle" = "Условия пользования";
+"AgreementScreenTermsOfServices" = "";
+
+/* CloudPromoScreen */
+"CloudPromoScreenTitle" = "Идеи — вперед!";
+"CloudPromoScreenSubtitle" = "Включите Inkspace и с легкостью делитесь своими заметками и рисунками, экспортируйте их в любимые приложения и мн. др... Это бесплатно. Присоединяйтесь и получайте максимум от своих идей.";
+
+/* ManualSyncScreen */
+"ManualSyncScreenTitle" = "Синхронизация вручную";
+"ManualSyncScreenSubtitle" = " Синхронизация Вашего устройства будет производиться каждые пять минут. Вы можете в любой момент синхронизировать данные вручную, нажав кнопку «Страница».";
+"ManualSyncButtonDontShow" = "Не показывать";
+
+/* WelcomeScreen */
+"WelcomeScreenTitle" = "Wacom Inkspace";
+"WelcomeScreenDescription" = "Используйте свои заметки и рисунки максимально эффективно";
+"WelcomeScreenButtonLabel" = "Установить соединение с устройством";
+"WelcomeScreenHyperlinkLabel" = "Войдите с помощью своего идентификатора Wacom";
+
+/* AfterLoginScreen */
+"AfterLoginScreenTitle" = "Inkspace";
+"AfterLoginScreenDescription" = "Воплощение идей с бумаги через облако в жизнь.";
+"AfterLoginScreenButtonLabel" = "НАСТРОИТЬ BAMBOO SPARK";
+"AfterLoginScreenHyperlinkLabel" = "ПЕРЕЙТИ В БИБЛИОТЕКУ";
+
+/* TurnOnDiscoveryScreen */
+"TurnOnDiscoveryScreenTitle" = "Включить Bamboo smartpad";
+
+/* DiscoveryPairingScreen */
+"DiscoveryPairingScreenTitle" = "Удерживайте в течение 6 секунд";
+"DiscoveryPairingScreenDescription" = "Соединение...";
+"DiscoveryPairingScreenButtonLabel" = "Соединение...";
+"DiscoveryPairingScreenListTitle" = "Выберите свой Bamboo smartpad";
+
+/* DiscoveryConfirmationScreen */
+"DiscoveryConfirmationScreenTitle" = "Нажмите для подтверждения";
+"DiscoveryConfirmationScreenDescription" = "Подождите...";
+
+/* DiscoveryNamingScreen */
+"DiscoveryNamingScreenTitle" = "Введите уникальное имя";
+"DiscoveryDefaultName" = "Bamboo smartpad";
+ 
+/* DiscoveryOrientationScreen */
+"DiscoveryOrientationScreenTitle" = "Выберите ориентацию Bamboo smartpad";
+
+/* LastStepScreen */
+"LastStepScreenTitle" = "Соединение успешно установлено";
+"LastStepScreenDescription" = "Соединение с Bamboo smartpad установлено успешно. Теперь Вы можете загружать свои заметки в приложение Inkspace.";
+"LastStepScreenButtonLabel" = "ВЫПОЛНЕНО";
+
+
+/* MainSettingsScreen */
+"SettingsScreenBackButtonLabel" = "Библиотека";
+"SettingsScreenFirstSection" = "Общая информация";
+"SettingsScreenTitle" = "Настройки";
+"SettingsScreenDiscoveryTitle" = "Bamboo smartpad";
+"SettingsScreenWacomCloudTitle" = "Inkspace";
+"SettingsScreenSecondSection" = "Поддержка";
+"SettingsScreenAboutTitle" = "Информация";
+"SettingsScreenAccessoriesTitle" = "Аксессуары";
+"SettingsScreenOtherAppsTitle" = "Другие приложения";
+"SettingsScreenHelpTitle" = "Помощь";
+
+/* InkspaceSettingsScreen */
+"inkspaceSettingsScreen_inkspace" = "Inkspace";
+"InkspaceSettingsScreenUsernameOption" = "Имя пользователя";
+"InkspaceSettingsScreenLastSyncOption" = "Последняя синхронизация";
+
+"InkspaceSettingsScreenExportLanguageOption" = "Экспорт языка";
+
+"InkspaceSettingsScreenInkspaceHyperlink" = "Портал Inkspace";
+"InkspaceSettingsScreenDisableSyncOption" = "Деактивировать синхронизацию";
+"InkspaceSettingsScreenEnableSyncOption" = "Активировать синхронизацию";
+"InkspaceSettingsScreenCellularSyncOption" = "Синхро сотовую связь";
+"InkspaceSettingsScreenMyAccountHyperlink" = "Перейти в раздел «Моя учетная запись»";
+"InkspaceSettingsScreenUsedStorageOption" = "Used Storage";
+
+
+/* DiscoverySettingsScreen */
+"DiscoverySettingsScreenNameOption" = "Имя";
+"DiscoverySettingsScreenLastSyncOption" = "Последняя синхронизация";
+"DiscoverySettingsScreenBatteryOption" = "Аккумулятор";
+"DiscoverySettingsScreenFirmwareOption" = "Версия прошивки";
+"DiscoverySettingsScreenOrientationOption" = "Ориентация устройства";
+"DiscoverySettingsScreenBackgroundSyncOption" = "Фоновая синхронизация";
+"DiscoverySettingsScreenPairDiscoveryOption" = "Установите соединение\nсо Bamboo smartpad";
+
+/* AboutSettingsScreen */  
+"AboutSettingsScreenTitlle" = "Wacom Inkspace v";
+"AboutSettingsScreenDescription" = "Copyright © 2016 Wacom Company, Limited.Все права защищены. ";
+"AboutSettingsScreenHyperlink1" = "Сторонние библиотеки"; 
+"AboutSettingsScreenHyperlink2" = "Условия и конфиденциальность";
+"AboutSettingsScreenHyperlink3" = "Google Analytics";
+
+/* GoogleAnalyticsSettingsScreen */
+"GoogleAnalyticsDescriptionLabel" = "Google Analytics. Нажав кнопку Agree («Я согласен(-на)») при установке приложения Inkspace, Вы даете свое согласие на использование нами Google Analytics — услуги по веб-аналитике, предоставляемой Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, США (Google). Google Analytics помогает нам анализировать характер работы с приложением Inkspace. Получить более подробную информацию об этом популярном аналитическом инструменте Вы сможете здесь: http://www.google.com/analytics/index.html. Google Analytics отслеживает действия посетителей: например, с какими функциями приложения Inkspace работают наши пользователи, какие из них являются наиболее популярными, в какое время дня используется приложение Inkspace, пользовались ли посетители приложением Inkspace ранее и т.д. Информация касательно использования Вами приложения Inkspace обычно передается на сервер Google в США и хранится там. Если в приложении Inkspace активирована функция «IP-анонимайзер», то на территории стран-членов Европейского союза или других стран-участниц Соглашения о Европейском экономическом пространстве Ваш IP-адрес будет использоваться Google в сокращенном варианте. Полный IP-адрес будет передан компанией Google на сервер Google в США (и сокращен там) только в исключительных случаях. Вся эта информация использоваться на условиях анонимности. Компания Google серьезно подходит к обеспечению конфиденциальности и безопасности Ваших данных, обрабатываемых инструментом Google Analytics. Более подробные сведения о том, как она защищает Ваши данные, Вы можете получить здесь: http://www.google.com/analytics/learn/privacy.html. Вы можете в любое время отозвать свое согласие, отказавшись от использования Google Analytics. В приложении Inkspace эта опция содержится в разделе /Settings/About/Google Analytics/. Чтобы воспользоваться ею, нажмите на ползунок отключения Google Analytics.";
+
+/* AccessoriesSettingsScreen */
+"AccessoriesSettingsScreenTitle" = "Аксессуары для Bamboo smartpad";
+"AccessoriesSettingsScreenDescription" = "Осмотрите основные аксессуары для Bamboo smartpad на нашей веб-странице";
+"accessoriesSettingsScreen_view_all" = "VIEW ALL";
+ 
+/* OtherAppsSettingsScreen */
+"OtherAppsSettingsScreenTitle" = "Bamboo Paper";
+"OtherAppsSettingsScreenDescription" = "Превратите свое мобильное устройство в бумажный блокнот и записывайте свои идеи, когда и где вздумается. Вы также можете воспользоваться приложением Bamboo Paper для редактирования и доработки своих проектов из Bamboo Spark, Folio и Slate.";
+
+/* CreateFirstNoteScreens */
+"CreateFirstNoteScreensFirstTitle" = "Запись на Bamboo smartpad";
+
+"CreateFirstNoteScreensSecondTitle" = "Нажмите кнопку «Страница»";
+"CreateFirstNoteScreensThirdTitle" = "Автоматическая синхронизация";
+
+/* LibraryViewController */
+"LibrarySelectToolbarButton" = "Выбрать";
+
+"EmptyLibraryMessage" = "Создайте Вашу первую заметку";
+"LibraryCreateNoteButtonLabel" = "ПОЕХАЛИ";
+
+
+
+/* PreviewViewController */
+
+/* LiveMode */
+"LiveModeTitle" = "Режим\nреальн. врем.";
+"LiveModeAlertConnectionInProgressTitle" = "Выполняется синхронизация";
+"LiveModeAlertConnectionInProgressMessage" = "Дождитесь завершения синхронизации данных устройства, прежде чем включить режим реального времени";
+
+"LiveModeConnectionUserPressMessage" = "Коснитесь, чтобы начать";
+
+"LiveModeProgressIndicatorSavingPage" = "Выполняется сохранение страницы...";
+
+"LiveModeFTEDescription" = "В режиме реального времени все, написанное на экране блокнота, будет отображаться на экране устройства.";
+
+"LiveModeAlertConnectionLostTitle" = "Потеряно соединение";
+"LiveModeAlertConnectionLostMessage" = "Соединение с Вашим устройством потеряно. Текущие изменения будут сохранены.";
+
+"LiveModeHintMessage" = "Режим реального времени";
+"LiveModeHintDescription" = "Дважды коснитесь экрана, чтобы выйти";
+
+
+/* SplitModeViewController */
+"SplitModeSplitButtonLabel" = "Разделить страницы";
+
+
+/* InkEditorViewController */
+
+
+/* ProgressIndicatorView */
+"ProgressIndicatorSyncCompleted" = "Синхронизация smartpad завершена";
+
+
+/* ProgressSyncBarView */
+
+"ProgressSyncBarDownloadingLabel" = "Загружено [X] из [Y]";
+
+/* PromoLEDTipsViewController */
+"PromoLEDTip1Title" = "Зеленый светодиод";
+"PromoLEDTip1Description" = "Bamboo smartpad включен, а текущая страница пуста.";
+"PromoLEDTip2Title" = "Синий светодиод";
+"PromoLEDTip2Description" = "Bamboo smartpad включен, а на текущей странице имеется содержимое.";
+
+/* TextRecognitionLanguageSettingController */
+"TextRecognitionExportLanguageSetting" = "Экспорт языка";
+"TextRecognitionLanguageSettingWaitngForResponse" = "Загрузка Вашего языка...";
+
+/* TextRecognitionExportPreviewController */
+"TextRecognitionExportPreviewTitle" = "Экспорт";
+"TextRecognitionExportPreviewLanguageOption" = "Язык";
+
+/* WhatsNewTextRecognitionController */
+
+"WhatsNewTextRecognitionTitle" = "Новинки";
+"WhatsNewTextRecognitionDescription" = "Теперь в бесплатной версии Inkspace на ограниченный срок доступен текстовый поиск и экспорт.";
+"WhatsNewTextRecognitionButtonLabel1" = "Активация";
+"WhatsNewTextRecognitionButtonLabel2" = "Установка языка";
+"WhatsNewTextRecognitionHyperlinkLabel" = "ПЕРЕЙТИ В БИБЛИОТЕКУ";
+
+"WhatsNewTitle" = "Новые функции и возможности";
+"WhatsNewStepOneDescription" = "Wacom Inkspace — это новое и усовершенствованное приложение для вашего устройства Bamboo Spark, Folio или Slate. Теперь вы можете воспользоваться расширенными и улучшенными функциональными возможностями этого приложения и повысить эффективность своего Smartpad. Далее приведено описание новых функций и возможностей.";
+"WhatsNewStepTwoDescription" = "Новые возможности редактирования для упрощения операций копирования, вставки и перемещения содержимого.";
+"WhatsNewStepThreeDescription" = "Возможность экспорта страниц в файл формата .PNG с поддержкой прозрачности.";
+"WhatsNewStepFourTitle" = "Одна учетная запись для всего";
+"WhatsNewStepFourDescription" = "Идентификатор Wacom — это учетная запись, с помощью которой вы получаете доступ ко всем функциям и инструментам Wacom.\nВы можете приобретать программы и заказывать услуги в Wacom Marketspace, использовать такие приложения, как Inkspace, делать покупки в Wacom Store и многое другое.";
+"WhatsNewStepFiveDescription" = "Включите синхронизацию с Inkspace и оцените все возможности работы с идеями и концептами на вашем Smartpad. С легкостью обменивайтесь заметками и рисунками, экспортируйте их в любимые приложения и используйте многие другие преимущества. Бесплатно! Присоединяйтесь сегодня и получите максимум от своих идей.";
+
+/* TextRecognitionSearchController */
+"TextRecognitionSearchControllerSearchPrompt" = "Поиск страниц…";

@@ -1,0 +1,366 @@
+/* 
+  Localizable.strings
+  Mate
+
+  Created by Cro on 4/29/15.
+  Copyright (c) 2015 Wacom GmbH. All rights reserved.
+*/
+
+/* Filenames */
+
+"termsOfUseFilename" = "terms_of_use_JA";
+
+/* Global */
+"cancel" = "中止";
+"ok" = "OK";
+"delete" = "削除";
+"edit" = "編集";
+"library" = "ライブラリ";
+"choose_action" = "操作を選択";
+"draw" = "描画";
+"split" = "分割";
+"merge" = "結合";
+"done" = "完了";
+"agree" = "同意する";
+"sign_up" = "登録";
+"login" = "ログイン";
+"log_out" = "ログアウト";
+"log_in" = "ログイン";
+"exit" = "終了";
+"retry" = "再試行";
+"learn_more" = "詳細を見る";
+"not_now" = "後で実行";
+"download" = "ダウンロード";
+"waiting" = "処理中...";
+"syncing" = "同期中...";
+"generating" = "作成中";
+"NextButtonLabel" = "次へ";
+"FinishButtonLabel" = "終了";
+"StartOverHyperlinkLabel" = "やり直し";
+"error" = "エラー";
+"search" = "検索";
+"export" = "エクスポート";
+"save" = "保存する";
+"forget" = "削除";
+"verify" = "確認";
+"use_offline" = "オフラインで使用";
+"discard" = "破棄";
+"copy" = "コピー";
+"paste" = "貼り付け";
+"cut" = "切り取り";
+"duplicate_to_new_page" = "新しいページに複製";
+"dismiss" = "保存しない";
+"redo" = "やり直し";
+
+/* Alerts */
+"AlertStartOverTitle" = "やり直し";
+"AlertStartOverMessage" = "やり直しをすると、今までの内容をすべて破棄して最初のステップに戻ります。";
+
+"AlertServerErrorTitle" = "";
+"AlertServerErrorMessage" = "操作に失敗しました。もう一度やり直してください。";
+
+"AlertConnectionLostTitle" = "接続が切れました。";
+"AlertConnectionLostMessage" = "やり直してください";
+
+"AlertLowBatteryTitle" = "充電が必要です";
+"AlertLowBatteryMessage" = "Bamboo smartpadのバッテリー残量が少なくなっています。充電してください。";
+
+"AlertMergeNotesTitle" = "ページを結合";
+"AlertMergeNotesMessage" = "選択したページを結合しますか？";
+
+"AlertDeleteNotesTitle" = "ページを削除";
+"AlertDeleteNotesSimpleMessage" = "選択したページを削除しますか？";
+"AlertDeleteNotesFromCloudMessage" = "ライブラリから削除したノートは、Inkspaceのワークスペースからも削除されます。";
+
+"AlertDeleteSingleNoteTitle" = "ページを削除";
+"AlertDeleteSingleNoteSimpleMessage" = "このページを本当に削除しますか？";
+
+"AlertDiscardChangesTitle" = "";
+"AlertDiscardChangesMessage" = "変更を破棄しますか？ 編集内容は失われます。";
+
+"AlertConfirmLogoutTitle" = "サインアウト";
+"AlertConfirmLogoutMessage" = "デバイス側のメモが削除されます。本当に続行しますか？";
+"AlertConfirmLogoutWhileSyncingMessage" = "一部の内容が現在同期中です。サインアウトするとデータが失われるおそれがあります。本当に続行しますか？";
+
+"AlertSkipCloudAccountTitle" = "Inkspaceの使用を本当にやめますか？";
+"AlertSkipCloudAccountMessage" = "Inkspaceを有効にすることで、メモやスケッチを簡単に共有したり、お気に入りのアプリにエクスポートしたりできます。";
+
+"AlertNoDeviceFoundTitle" = "デバイスが見つかりません";
+"AlertNoDeviceFoundMessage" = "デバイスの電源が入っていて、充電済みであることを確認してください。";
+
+"AlertDeviceUnpairedTitle" = "デバイスのペアリングを解除しました";
+"AlertDeviceUnpairedMessage" = "お使いのBamboo smartpadは他のデバイスとペアリングされているため、このデバイスからは削除されます。";
+
+"AlertOfflineTitle" = "インターネットに接続していません";
+
+"AlertMergeOrientationErrorTitle" = "結合できません";
+"AlertMergeOrientationErrorMessage" = "向きが異なるページの結合には対応していません。";
+
+"AlertBluetoothIsDisabledTitle" = "Bluetoothがオフ";
+"AlertBluetoothIsDisabledMessage" = "Bamboo smartpadに接続するには、Bluetoothを有効にしてください";
+
+"AlertSaveErrorMessage" = "変更を保存できません！";
+"AlertLoadStrokesErrorMessage" = "ストロークの読み込みに失敗しました！";
+
+"AlertSesionExpiredTitle" = "セッション終了";
+"AlertSesionExpiredErrorMessage" = "電子メールアドレスまたはパスワードが変更されたため、Inkspaceのセッションを終了しました。この変更を解決した後、ライブラリ全体を同期し直す必要があります。これよりログアウトします。";
+
+"AlertSignUpToUseSearchTitle" = "アカウントが必要";
+"AlertSignUpToUseSearchErrorMessage" = "検索の利用にはInkspaceアカウントが必要です";
+
+"AlertNoTextMatchTitle" = "一致なし";
+"AlertNoTextMatchErrorMessage" = "つづりを修正するか他の単語でお試しください";
+
+"AlertNeedsInternetTitle" = "オフラインです";
+"AlertNeedsInternetToUseSearchErrorMessage" = "検索の利用にはインターネット接続が必要です";
+"AlertNeedsInternetToExportTextErrorMessage" = "テキストのエクスポートにはインターネット接続が必要です";
+
+"AlertStorageLimitExceededTitle" = "Storage limit exceeded";
+"AlertStorageLimitExceededMessage" = "You have exceeded your storage limit on inkspace. Please remove some of your old documents to be able to synchonize your documents.";
+
+"AlertMailNotVerifiedTitle" = "メール未確認";
+"AlertMailNotVerifiedMessage" = "登録を完了するには、電子メールアドレスを確認してください。";
+
+"AlertPastingStrokeExceedBoundsTitle" = "画像が大きすぎます";
+"AlertPastingStrokeExceedBoundsMessage" = "貼り付けようとしている画像が大きすぎて、現在のページに収まりません。より小さな範囲を選択してください。";
+
+"AlertDuplicatePageTitle" = "変更を保存";
+"AlertDuplicatePageMessage" = "選択範囲を新しいページに複製する前に、現在のページへの変更を保存しますか？";
+
+"AlertPlanExpiredTitle" = "サブスクリプションの期限切れ";
+"AlertPlanExpiredMessage" = "Inkspaceのサブスクリプション期限が切れたため、一部の機能が制限されます";
+
+"AlertForgetDeviceTitle" = "デバイスを削除";
+"AlertForgetDeviceMessage" = "現在接続中のデバイスを削除しますか？";
+
+
+
+/* Hints */
+
+"MergeHintTitle" = "複数のページを1つに結合";
+"SplitHintTitle" = "ページを複数に分割します";
+"DragHintTitle" = "ドラッグしてタイムラインを選択します";
+"LongPressHintTitle" = "長押しすると細かくなります";
+"CreatePageHintTitle" = "このポイントでページを分割します";
+
+/* Months */
+
+
+"January" = "1月";
+"February" = "2月";
+"March" = "3月";
+"April" = "4月";
+"May" = "5月";
+"June" = "6月";
+"July" = "7月";
+"August" = "8月";
+"September" = "9月";
+"October" = "10月";
+"November" = "11月";
+"December" = "12月";
+
+/* Last Sync Days */
+"today" = "今日";
+"yesterday" = "昨日";
+
+/* ExportNotes */
+"ExportNotesExportAsText" = "Ink to text";
+"ExportNotesExportAsPNG" = "PNGでエクスポート";
+"ExportNotesExportAsJPG" = "画像形式でエクスポート";
+"ExportNotesExportAsPDF" = "PDF形式でエクスポート";
+"ExportNotesExportAsWILL" = "WILL形式でエクスポート";
+"ExportNotesExportAsSVG" = "Ink to vector";
+
+"ExportNotesOpenWithCompatibleApps" = "次の方法で開く";
+"ExportNotesMadeWithBambooSpark" = "Made with Inkspace";
+"ExportNotesExportFileName" = "WCM";
+
+/* AgreementScreen */
+"AgreementScreenTitle" = "利用規約";
+"AgreementScreenTermsOfServices" = "";
+
+/* CloudPromoScreen */
+"CloudPromoScreenTitle" = "アイデアをさらに先へ";
+"CloudPromoScreenSubtitle" = "Inkspaceを有効にすることで、メモやスケッチを簡単に共有したり、お気に入りのアプリにエクスポートしたりできます。 ご利用は無料です。今すぐ始めてアイデアをさらに活かしましょう。";
+
+/* ManualSyncScreen */
+"ManualSyncScreenTitle" = "手動同期";
+"ManualSyncScreenSubtitle" = " デバイスは5分ごとに自動的に同期します。ページボタンを押すことで、いつでも手動で同期できます。";
+"ManualSyncButtonDontShow" = "表示しない";
+
+/* WelcomeScreen */
+"WelcomeScreenTitle" = "Wacom Inkspace";
+"WelcomeScreenDescription" = "メモやスケッチをさらに活用";
+"WelcomeScreenButtonLabel" = "デバイスを接続";
+"WelcomeScreenHyperlinkLabel" = "Wacom IDを用いてログイン";
+
+/* AfterLoginScreen */
+"AfterLoginScreenTitle" = "Inkspace";
+"AfterLoginScreenDescription" = "紙の上のアイデアをクラウドにも世界にも";
+"AfterLoginScreenButtonLabel" = "BAMBOO SPARKをセットアップ";
+"AfterLoginScreenHyperlinkLabel" = "ライブラリに移動";
+
+/* TurnOnDiscoveryScreen */
+"TurnOnDiscoveryScreenTitle" = "Bamboo smartpadの電源を入れます";
+
+
+/* DiscoveryPairingScreen */
+"DiscoveryPairingScreenTitle" = "6秒間押し続けます";
+"DiscoveryPairingScreenDescription" = "接続中...";
+"DiscoveryPairingScreenButtonLabel" = "接続中...";
+"DiscoveryPairingScreenListTitle" = "Bamboo smartpadを選択";
+
+/* DiscoveryConfirmationScreen */
+"DiscoveryConfirmationScreenTitle" = "タップして確認します";
+"DiscoveryConfirmationScreenDescription" = "処理中...";
+
+/* DiscoveryNamingScreen */
+"DiscoveryNamingScreenTitle" = "このデバイス用の名前を入力してください";
+"DiscoveryDefaultName" = "Bamboo smartpad";
+ 
+/* DiscoveryOrientationScreen */
+"DiscoveryOrientationScreenTitle" = "Bambooスマートパッドの向きを選択";
+
+/* LastStepScreen */
+"LastStepScreenTitle" = "ペアリング成功";
+
+"LastStepScreenDescription" = "Bamboo smartpadが正常に接続されました。これでInkspaceアプリにメモをアップロードできます。";
+"LastStepScreenButtonLabel" = "完了";
+
+
+/* MainSettingsScreen */
+"SettingsScreenBackButtonLabel" = "ライブラリ";
+"SettingsScreenFirstSection" = "一般";
+"SettingsScreenTitle" = "設定";
+"SettingsScreenDiscoveryTitle" = "Bamboo smartpad";
+"SettingsScreenWacomCloudTitle" = "Inkspace";
+"SettingsScreenSecondSection" = "サポート";
+"SettingsScreenAboutTitle" = "製品について";
+"SettingsScreenAccessoriesTitle" = "アクセサリ";
+"SettingsScreenOtherAppsTitle" = "他のアプリ";
+"SettingsScreenHelpTitle" = "ヘルプ";
+
+/* InkspaceSettingsScreen */
+"inkspaceSettingsScreen_inkspace" = "Inkspace";
+"InkspaceSettingsScreenUsernameOption" = "ユーザ名";
+"InkspaceSettingsScreenLastSyncOption" = "前回の同期";
+"InkspaceSettingsScreenExportLanguageOption" = "エクスポートの言語";
+
+"InkspaceSettingsScreenInkspaceHyperlink" = "Inkspaceウェブポータル";
+"InkspaceSettingsScreenDisableSyncOption" = "同期を無効化";
+"InkspaceSettingsScreenEnableSyncOption" = "同期を有効化";
+"InkspaceSettingsScreenCellularSyncOption" = "モバイルデータ通信で同期";
+"InkspaceSettingsScreenMyAccountHyperlink" = "マイアカウントへ";
+"InkspaceSettingsScreenUsedStorageOption" = "Used Storage";
+
+
+/* DiscoverySettingsScreen */
+"DiscoverySettingsScreenNameOption" = "名前";
+"DiscoverySettingsScreenLastSyncOption" = "前回の同期";
+"DiscoverySettingsScreenBatteryOption" = "バッテリー";
+"DiscoverySettingsScreenFirmwareOption" = "ファームウェアバージョン";
+"DiscoverySettingsScreenOrientationOption" = "デバイスの向き";
+"DiscoverySettingsScreenBackgroundSyncOption" = "バックグラウンドでの同期";
+"DiscoverySettingsScreenPairDiscoveryOption" = "Bamboo smartpadのペアリング";
+
+/* AboutSettingsScreen */  
+"AboutSettingsScreenTitlle" = "Wacom Inkspace v";
+"AboutSettingsScreenDescription" = "Copyright © 2016 Wacom Company, Limited. All rights reserved.";
+"AboutSettingsScreenHyperlink1" = "第三者ライブラリ";
+"AboutSettingsScreenHyperlink2" = "利用規約/プライバシー"; 
+"AboutSettingsScreenHyperlink3" = "Google Analytics";
+
+/* GoogleAnalyticsSettingsScreen */
+"GoogleAnalyticsDescriptionLabel" = "【Google Analytics】 Inkspaceアプリのインストール時に［同意］ボタンをクリックすることで、ユーザーはワコムが、1600 Amphitheatre Parkway, Mountain View, CA 94043, USA にあるGoogle Inc.（以下「Google」といいます）が提供するウェブ分析サービスである、Google Analyticsを使用することに同意したことになります。Google Analyticsは、ワコムがInkspaceアプリがどのように使用されているかを分析するための助けとなります。この人気のある分析ツールの詳細は、http://www.google.com/analytics/index.html  で知ることができます。Google Analyticsは、例えば、ユーザーたちがInkspaceアプリのどの機能を使用しているか、どの機能が一番人気があるか、Inkspaceアプリが1日のどの時間に使用されるか、ユーザーが以前にInkspaceアプリを使用したかどうかや、その他の類似情報といった、ビジターのインタラクションを追跡します。ユーザーのInkspaceアプリの使用に関する情報は、通常、米国にあるGoogleのサーバーに送信され、ここで保存されます。InkspaceアプリではIP匿名化機能が有効になっていますので、欧州連合加盟国または欧州経済領域の他の契約国においては、ユーザーのIPアドレスは、まず、Googleによって短縮化されます。例外的な一部の場合においては、Googleは完全なIPアドレスを米国にあるGoogleサーバーに送信し、ここで短縮します。これらの情報のすべては匿名化されます。Googleでは、ユーザーのGoogle Analyticsデータのプライバシー保護と安全性を最優先としており、ユーザーデータの保護に関する取り組みの詳細を、http://www.google.com/analytics/learn/privacy.html で公開しています。 ユーザーは、Google Analyticsの使用をオプトアウトすることで、いつでも同意を取り消すことができます。オプトアウトのオプションは、Inkspaceアプリ内の /Settings/About/Google Analytics/ で選択することができます。オプトアウトをするには、このページのスライドコントロールをクリックし、Google Analyticsを無効化してください。";
+
+/* AccessoriesSettingsScreen */
+"AccessoriesSettingsScreenTitle" = "Bamboo smartpadのアクセサリ";
+"AccessoriesSettingsScreenDescription" = "Bamboo smartpadに必要なアクセサリを弊社のWebページで入手";
+"accessoriesSettingsScreen_view_all" = "VIEW ALL";
+
+/* OtherAppsSettingsScreen */ 
+"OtherAppsSettingsScreenTitle" = "Bamboo Paper";
+"OtherAppsSettingsScreenDescription" = "モバイルデバイスを紙のノートのように使い、アイデアをいつでもどこでも記録します。また、Bamboo Paperを用いてBamboo Spark/Folio/Slateを編集・洗練することができます。";
+
+/* CreateFirstNoteScreens */
+"CreateFirstNoteScreensFirstTitle" = "Bamboo smartpadに書き込む";
+
+"CreateFirstNoteScreensSecondTitle" = "ページボタンを押します";
+
+"CreateFirstNoteScreensThirdTitle" = "自動同期";
+
+/* LibraryViewController */
+"LibrarySelectToolbarButton" = "選択";
+
+"EmptyLibraryMessage" = "最初のメモを作成しましょう";
+"LibraryCreateNoteButtonLabel" = "実行";
+
+
+/* PreviewViewController */
+
+/* LiveMode */
+"LiveModeTitle" = "ライブモード";
+"LiveModeAlertConnectionInProgressTitle" = "同期中";
+"LiveModeAlertConnectionInProgressMessage" = "ライブモードを開始する前に、デバイスが同期するのをお待ちください";
+
+"LiveModeConnectionUserPressMessage" = "タップして開始";
+
+"LiveModeProgressIndicatorSavingPage" = "ページを保存しています…";
+
+"LiveModeFTEDescription" = "ライブモードでは、デバイスへの書き込みはすべて画面にも表示されます。";
+
+"LiveModeAlertConnectionLostTitle" = "接続が切れました";
+"LiveModeAlertConnectionLostMessage" = "デバイスとの接続が切れました。現在の進行状況は保存されます。";
+
+"LiveModeHintMessage" = "ライブモード";
+"LiveModeHintDescription" = "終了するには画面をダブルタップします";
+
+
+/* SplitModeViewController */
+"SplitModeSplitButtonLabel" = "ページを分割";
+
+
+/* InkEditorViewController */
+
+
+/* ProgressIndicatorView */
+"ProgressIndicatorSyncCompleted" = "Bamboo smartpadの同期が完了しました。";
+
+/* ProgressSyncBarView */
+
+"ProgressSyncBarDownloadingLabel" = "[X] / [Y]項目をダウンロード中";
+
+/* PromoLEDTipsViewController */
+"PromoLEDTip1Title" = "緑のLED";
+"PromoLEDTip1Description" = "Bamboo smartpadの電源が入っていて、現在のページは空白。";
+"PromoLEDTip2Title" = "青のLED";
+"PromoLEDTip2Description" = "Bamboo smartpadの電源が入っていて、現在のページに記入あり。";
+
+/* TextRecognitionLanguageSettingController */
+"TextRecognitionExportLanguageSetting" = "エクスポートの言語";
+"TextRecognitionLanguageSettingWaitngForResponse" = "言語を取得中…";
+
+/* TextRecognitionExportPreviewController */
+"TextRecognitionExportPreviewTitle" = "テキスト形式でエクスポート";
+"TextRecognitionExportPreviewLanguageOption" = "言語";
+
+/* WhatsNewTextRecognitionController */
+
+"WhatsNewTextRecognitionTitle" = "新機能";
+"WhatsNewTextRecognitionDescription" = "Inkspaceでテキストの検索とエクスポートを期間限定で無料利用可能。";
+"WhatsNewTextRecognitionButtonLabel1" = "アクティベート";
+"WhatsNewTextRecognitionButtonLabel2" = "言語を設定";
+"WhatsNewTextRecognitionHyperlinkLabel" = "ライブラリに移動";
+
+
+"WhatsNewTitle" = "新要素";
+"WhatsNewStepOneDescription" = "Wacom Inkspaceは、Bamboo Spark、FolioおよびSlate向けの最新かつ改良されたアプリです。より多くの、より優れた機能によって、Smartpadをさらに活用できるようになりました。新要素は以下のとおりです。";
+"WhatsNewStepTwoDescription" = "コンテンツを簡単にコピー、貼り付け、移動できる新しい編集機能";
+"WhatsNewStepThreeDescription" = "ページを透過PNGでエクスポート。";
+"WhatsNewStepFourTitle" = "単一の汎用アカウント";
+"WhatsNewStepFourDescription" = "Wacom IDは、ワコムのあらゆるコンテンツに使用できるアカウントです。\nワコムマーケットプレイスでのソフトウェアおよびサービスの購入や、Inkspaceなどワコムのサービスの有効化、ワコムストアでの購入などに利用できます。";
+"WhatsNewStepFiveDescription" = "Inkspaceを有効にし、Smartpadで記録したアイデアで何ができるかを発見してください。メモやスケッチを簡単に共有したり、お気に入りのアプリにエクスポートしたりできます。ご利用は無料です。今すぐ始めてアイデアをさらに活かしましょう。";
+
+/* TextRecognitionSearchController */
+"TextRecognitionSearchControllerSearchPrompt" = "ページを検索中...";
+

@@ -1,0 +1,359 @@
+/* 
+  Localizable.strings
+  Mate
+
+  Created by Cro on 4/29/15.
+  Copyright (c) 2015 Wacom GmbH. All rights reserved.
+*/
+
+/* Filenames */
+
+"termsOfUseFilename" = "terms_of_use_ZH_HANS";
+
+/* Global */
+"cancel" = "取消";
+"ok" = "OK";
+"delete" = "删除";
+"edit" = "编辑";
+"library" = "图文库";
+"choose_action" = "选择动作";
+"draw" = "绘图";
+"split" = "分割"; 
+"sign_up" = "注册";
+"merge" = "结合";
+"done" = "完成";
+"agree" = "同意";
+"login" = "登入";
+"log_out" = "注销";
+"log_in" = "登录";
+"exit" = "退出";
+"retry" = "再试一次";
+"learn_more" = "了解更多";
+"not_now" = "不是现在";
+"download" = "下载";
+"waiting" = "等待中……";
+"syncing" = "同步中…";
+"generating" = "生成中";
+"NextButtonLabel" = "下一步";
+"FinishButtonLabel" = "完成";
+"StartOverHyperlinkLabel" = "重新开始";
+"error" = "错误";
+"search" = "搜索";
+"export" = "导出";
+"save" = "保存";
+"forget" = "忽略";
+"verify" = "验证";
+"use_offline" = "离线使用";
+"discard" = "放弃";
+"copy" = "复制";
+"paste" = "粘贴";
+"cut" = "剪切";
+"duplicate_to_new_page" = "复制到新页面";
+"dismiss" = "关闭";
+"redo" = "恢复";
+
+/* Alerts */
+"AlertStartOverTitle" = "重新开始";
+"AlertStartOverMessage" = "重新开始会取消目前所有工作进度并回到第一步";
+
+"AlertServerErrorTitle" = "";
+"AlertServerErrorMessage" = "操作失败。请重试。";
+
+"AlertConnectionLostTitle" = "连接丢失。";
+"AlertConnectionLostMessage" = "请再试一次";
+
+"AlertLowBatteryTitle" = "电量不足";
+"AlertLowBatteryMessage" = "您的 Bamboo smartpad 电力即将不足，请充电。";
+
+"AlertMergeNotesTitle" = "结合页面";
+"AlertMergeNotesMessage" = "结合所选页面？";
+
+"AlertDeleteNotesTitle" = "删除页面";
+"AlertDeleteNotesSimpleMessage" = "删除所选页面？";
+"AlertDeleteNotesFromCloudMessage" = "从库中删除笔记时，也会将它从 Inkspace 工作区删除。";
+
+"AlertDeleteSingleNoteTitle" = "删除页面";
+"AlertDeleteSingleNoteSimpleMessage" = "您确定您要删除此页？";
+
+"AlertDiscardChangesTitle" = "";
+"AlertDiscardChangesMessage" = "舍弃更改？您将遗失目前的工作进度。";
+
+"AlertConfirmLogoutTitle" = "登出";
+"AlertConfirmLogoutMessage" = "您现有的笔记将被删除，您确定要继续？";
+"AlertConfirmLogoutWhileSyncingMessage" = "您某些内容正在同步中，现在登出可能导致内容遗失，您 确定要继续？";
+
+"AlertSkipCloudAccountTitle" = "您确定您不想使用Inkspace?";
+"AlertSkipCloudAccountMessage" = "启用 Inkspace 并轻松共享笔记和绘图，或将这些笔记和绘图导出到您最喜爱的应用程序及其它...";
+
+"AlertNoDeviceFoundTitle" = "未找到设备";
+"AlertNoDeviceFoundMessage" = "确定设备已打开并已充电。";
+
+"AlertDeviceUnpairedTitle" = "设备未配对";
+"AlertDeviceUnpairedMessage" = "您的 Bamboo smartpad 已配对到另一个设备，并将从此设备上删除。";
+
+"AlertOfflineTitle" = "未连接到Internet";
+
+"AlertMergeOrientationErrorTitle" = "不允许结合";
+"AlertMergeOrientationErrorMessage" = "不支持不同取向的笔记相结合";
+
+"AlertBluetoothIsDisabledTitle" = "蓝牙关闭";
+"AlertBluetoothIsDisabledMessage" = "打开蓝牙与 Bamboo smartpad 连接";
+
+"AlertSaveErrorMessage" = "无法保存变更！";
+"AlertLoadStrokesErrorMessage" = "笔触载入失败";
+
+"AlertSesionExpiredTitle" = "登录期限已过期終了";
+"AlertSesionExpiredErrorMessage" = "您的 Inkspace 会话段已过期，因为电子邮件地址或密码已经更改。解决此更改后，将需要重新同步整个库。现在，您将从系统注销。";
+
+"AlertSignUpToUseSearchTitle" = "所需帐户";
+"AlertSignUpToUseSearchErrorMessage" = "为使用搜索功能，您需要一个Wacom云帐户";
+
+"AlertNoTextMatchTitle" = "不匹配";
+"AlertNoTextMatchErrorMessage" = "检查拼写或尝试不同的字";
+
+"AlertNeedsInternetTitle" = "无网络连接";
+"AlertNeedsInternetToUseSearchErrorMessage" = "需网络连接以使用搜索功能";
+"AlertNeedsInternetToExportTextErrorMessage" = "需网络连接以导出文本";
+
+"AlertStorageLimitExceededTitle" = "Storage limit exceeded";
+"AlertStorageLimitExceededMessage" = "You have exceeded your storage limit on inkspace. Please remove some of your old documents to be able to synchonize your documents.";
+
+"AlertMailNotVerifiedTitle" = "邮件未验证";
+"AlertMailNotVerifiedMessage" = "要完成注册，请先验证您的电子邮件地址。";
+
+"AlertPastingStrokeExceedBoundsTitle" = "图像太大";
+"AlertPastingStrokeExceedBoundsMessage" = "您想要粘贴的图像太大，与当前页面不匹配。请选择小一点的区域。";
+
+"AlertDuplicatePageTitle" = "保存更改";
+"AlertDuplicatePageMessage" = "在复制选择范围至页面之前，是否要保存对当前页面的更改";
+
+"AlertPlanExpiredTitle" = "订购计划过期";
+"AlertPlanExpiredMessage" = "您的 Inkspace 订购已过期，有些功能将受到限制";
+
+"AlertForgetDeviceTitle" = "忽略设备";
+"AlertForgetDeviceMessage" = "您要忽略当前连接的设备吗？";
+
+
+
+/* Hints */
+
+"MergeHintTitle" = "将数个页面结合在单一页面上";
+"SplitHintTitle" = "把页面分为多个页面";
+"DragHintTitle" = "拖拽以选时间轴";
+"LongPressHintTitle" = "长按以获得更佳的精准度";
+"CreatePageHintTitle" = "从这点开始分割页面";
+
+/* Months */
+
+
+"January" = "一月";
+"February" = "二月";
+"March" = "三月";
+"April" = "四月";
+"May" = "五月";
+"June" = "六月";
+"July" = "七月";
+"August" = "八月";
+"September" = "九月";
+"October" = "十月";
+"November" = "十一月";
+"December" = "十二月";
+
+/* Last Sync Days */
+"today" = "今天";
+"yesterday" = "昨天";
+
+/* ExportNotes */
+"ExportNotesExportAsText" = "Ink to text";
+"ExportNotesExportAsPNG" = "导出为 PNG";
+"ExportNotesExportAsJPG" = "导出为 JPG";
+"ExportNotesExportAsPDF" = "导出为 PDF";
+"ExportNotesExportAsWILL" = "导出为 WILL";
+"ExportNotesExportAsSVG" = "矢量笔迹";
+
+"ExportNotesOpenWithCompatibleApps" = "打开于";
+"ExportNotesMadeWithBambooSpark" = "Made with Inkspace";
+"ExportNotesExportFileName" = "WCM";
+
+/* AgreementScreen */
+"AgreementScreenTitle" = "使用条款";
+"AgreementScreenTermsOfServices" = "";
+
+/* CloudPromoScreen */
+"CloudPromoScreenTitle" = "进一步延伸您的想法";
+"CloudPromoScreenSubtitle" = "启用 Inkspace 并轻松共享笔记和绘图，或将这些笔记和绘图导出到您最喜爱的应用程序及其它... 可免费使用。请立即加入，运用您的创意做\n更多事。";
+
+/* ManualSyncScreen */
+"ManualSyncScreenTitle" = "手动同步";
+"ManualSyncScreenSubtitle" = " 您的设备每 5 分钟自动同步一次。但只要按页面按钮，即可随时手动同步。";
+"ManualSyncButtonDontShow" = "不要显示";
+
+/* WelcomeScreen */
+"WelcomeScreenTitle" = "Wacom Inkspace";
+"WelcomeScreenDescription" = "运用笔记和绘图做更多事";
+"WelcomeScreenButtonLabel" = "连接您的设备";
+"WelcomeScreenHyperlinkLabel" = "使用您的 Wacom ID 登录";
+
+/* AfterLoginScreen */
+"AfterLoginScreenTitle" = "Inkspace";
+"AfterLoginScreenDescription" = "曾经想法在纸上，如今在云中，在生活里";
+"AfterLoginScreenButtonLabel" = "设定Bamboo Sparks";
+"AfterLoginScreenHyperlinkLabel" = "去图文库";
+
+/* TurnOnDiscoveryScreen */
+"TurnOnDiscoveryScreenTitle" = "打开 Bamboo smartpad";
+
+/* DiscoveryPairingScreen */
+"DiscoveryPairingScreenTitle" = "请按住6秒钟";
+"DiscoveryPairingScreenDescription" = "连接中……";
+"DiscoveryPairingScreenButtonLabel" = "连接中……";
+"DiscoveryPairingScreenListTitle" = "选择您的 Bamboo smartpad";
+
+/* DiscoveryConfirmationScreen */
+"DiscoveryConfirmationScreenTitle" = "点击确认";
+
+"DiscoveryConfirmationScreenDescription" = "等待中……";
+
+/* DiscoveryNamingScreen */
+"DiscoveryNamingScreenTitle" = "输入一独一的名字";
+"DiscoveryDefaultName" = "Bamboo smartpad";
+ 
+/* DiscoveryOrientationScreen */
+"DiscoveryOrientationScreenTitle" = "选择Bamboo智能数位本的方向";
+
+/* LastStepScreen */
+"LastStepScreenTitle" = "成功配对";
+
+"LastStepScreenDescription" = "您的 Bamboo smartpad 已成功连接。现在您可以上传笔记至 Inkspace 应用程序。";
+"LastStepScreenButtonLabel" = "完成";
+
+
+/* MainSettingsScreen */
+"SettingsScreenBackButtonLabel" = "图文库";
+"SettingsScreenFirstSection" = "概况";
+"SettingsScreenTitle" = "设置";
+"SettingsScreenDiscoveryTitle" = "Bamboo smartpad";
+"SettingsScreenWacomCloudTitle" = "Inkspace";
+"SettingsScreenSecondSection" = "支持";
+"SettingsScreenAboutTitle" = "关于";
+"SettingsScreenAccessoriesTitle" = "配件";
+"SettingsScreenOtherAppsTitle" = "其它应用程序";
+"SettingsScreenHelpTitle" = "帮助";
+
+/* InkspaceSettingsScreen */
+"inkspaceSettingsScreen_inkspace" = "Inkspace";
+"InkspaceSettingsScreenUsernameOption" = "用户名称";
+"InkspaceSettingsScreenLastSyncOption" = "最后同步";
+
+"InkspaceSettingsScreenExportLanguageOption" = "导出语言";
+
+"InkspaceSettingsScreenInkspaceHyperlink" = " Inkspace入口网站";
+"InkspaceSettingsScreenDisableSyncOption" = "停用同步";
+"InkspaceSettingsScreenEnableSyncOption" = "启用同步";
+"InkspaceSettingsScreenCellularSyncOption" = "通过手机同步";
+"InkspaceSettingsScreenMyAccountHyperlink" = "转至我的帐户";
+"InkspaceSettingsScreenUsedStorageOption" = "Used Storage";
+
+
+/* DiscoverySettingsScreen */
+"DiscoverySettingsScreenNameOption" = "名称";
+"DiscoverySettingsScreenLastSyncOption" = "最后同步";
+"DiscoverySettingsScreenBatteryOption" = "电池";
+"DiscoverySettingsScreenFirmwareOption" = "固件版本";
+"DiscoverySettingsScreenOrientationOption" = "设备导向";
+"DiscoverySettingsScreenBackgroundSyncOption" = "同步背景";
+"DiscoverySettingsScreenPairDiscoveryOption" = "配对 Bamboo smartpad";
+ 
+/* AboutSettingsScreen */ 
+"AboutSettingsScreenTitlle" = "Wacom Inkspace v";
+"AboutSettingsScreenDescription" = "Copyright © 2016 Wacom Company, Limited. 保留所有权利。";
+"AboutSettingsScreenHyperlink1" = "第三方图文库";
+"AboutSettingsScreenHyperlink2" = "使用条款与隐私政策";
+"AboutSettingsScreenHyperlink3" = "Google Analytics";
+
+/* GoogleAnalyticsSettingsScreen */
+"GoogleAnalyticsDescriptionLabel" = "Google 分析。当安装Inkspace App时点击“同意”按钮，表示您已同意我们使用Google分析，这是一种由Google公司（地址：1600 Amphitheatre Parkway, Mountain View, CA 94043, USA）（“Google”）提供的一种网页分析服务。Google分析帮助我们分析Inkspace App是如何被使用的。您可以在此处找到更多有关这一流行分析工具的信息： http://www.google.com/analytics/index.html.Google分析追踪访问者的互动行为；例如我们的用户使用Inkspace App的那些功能，那些功能最受欢迎，在一天的哪个时段Inkspace App被使用，访问者是否之前使用过Inkspace App，以及其他类似信息。涉及您使用Inkspace App的信息一般情况下会被传送给位于美国的Google服务器，并且被存储在那里。因为在Inkspace App中IP匿名功能是被激活的，您的IP地址，在欧盟成员国或者欧洲经济区上其他条约的协约国范围内，将会首先被Google缩短。仅在例外情况下Google才会传送全部IP地址到位于美国的Google服务器，并且即将在那里对IP地址进行缩减。所有这些信息都是匿名化的。Google严肃对待您的Google分析数据上的隐私和安全，并且您可以在此处找到更多有关它如何保护您数据的信息： http://www.google.com/analytics/learn/privacy.html. 您可以在任何时间通过退出使用Google分析撤销您的同意。您可以在Inkspace App中/设置/关于/Google分析/中选择退出。请您在那里出现的 滑动条控制上点击一下以便退出并使 Google分析不再有效。";
+
+/* AccessoriesSettingsScreen */
+"AccessoriesSettingsScreenTitle" = "Bamboo smartpad 附件";
+"AccessoriesSettingsScreenDescription" = "在我们的网页寻找 Bamboo smartpad 的必要附件";
+"accessoriesSettingsScreen_view_all" = "VIEW ALL";
+
+/* OtherAppsSettingsScreen */
+"OtherAppsSettingsScreenTitle" = "Bamboo Paper";
+"OtherAppsSettingsScreenDescription" = "将您的移动设备转换为纸笔记本，然后随时随地记录您的构思。您也可以使用 Bamboo Paper 编辑和优化 Bamboo Spark/Folio/Slate。";
+ 
+/* CreateFirstNoteScreens */
+"CreateFirstNoteScreensFirstTitle" = "在 Bamboo smartpad 上书写";
+"CreateFirstNoteScreensSecondTitle" = "按页面按钮";
+"CreateFirstNoteScreensThirdTitle" = "自动同步";
+
+/* LibraryViewController */
+"LibrarySelectToolbarButton" = "选择";
+"EmptyLibraryMessage" = "创建您的第一篇笔记";
+"LibraryCreateNoteButtonLabel" = "开始";
+
+/* PreviewViewController */
+
+/* LiveMode */
+"LiveModeTitle" = "实时模式";
+"LiveModeAlertConnectionInProgressTitle" = "正在同步";
+"LiveModeAlertConnectionInProgressMessage" = "启动实时模式前，请等候设备完成同步";
+
+"LiveModeConnectionUserPressMessage" = "点击一下可开始";
+
+"LiveModeProgressIndicatorSavingPage" = "正在保存页面…";
+
+"LiveModeFTEDescription" = "实时模式进行期间，设备上的书写将镜像在\n屏幕上。";
+
+"LiveModeAlertConnectionLostTitle" = "连接丢失";
+"LiveModeAlertConnectionLostMessage" = "设备连接丢失，将会保存当前进度。";
+
+"LiveModeHintMessage" = "实时模式";
+"LiveModeHintDescription" = "在屏幕上点击两下以结束";
+
+
+/* SplitModeViewController */
+"SplitModeSplitButtonLabel" = "拆分頁面";
+
+/* InkEditorViewController */
+
+/* ProgressIndicatorView */
+"ProgressIndicatorSyncCompleted" = "Bamboo smartpad 已完成同步。";
+
+
+/* ProgressSyncBarView */
+"ProgressSyncBarDownloadingLabel" = "正从[Y]中下载[X]……";
+
+/* PromoLEDTipsViewController */
+"PromoLEDTip1Title" = "绿色LED灯";
+"PromoLEDTip1Description" = "Bamboo smartpad 启用中，当前页面无内容。";
+"PromoLEDTip2Title" = "蓝色LED灯";
+"PromoLEDTip2Description" = "Bamboo smartpad 启用中，当前页面有内容。";
+
+/* TextRecognitionLanguageSettingController */
+"TextRecognitionExportLanguageSetting" = "导出语言";
+"TextRecognitionLanguageSettingWaitngForResponse" = "正在获取您的语言…";
+
+/* TextRecognitionExportPreviewController */
+"TextRecognitionExportPreviewTitle" = "作为文本导出";
+"TextRecognitionExportPreviewLanguageOption" = "语言";
+
+/* WhatsNewTextRecognitionController */
+
+"WhatsNewTextRecognitionTitle" = "新变化！";
+"WhatsNewTextRecognitionDescription" = "Inkspace搜索和导出文本功能限期免费。";
+"WhatsNewTextRecognitionButtonLabel1" = "激活";
+"WhatsNewTextRecognitionButtonLabel2" = "设定语言";
+"WhatsNewTextRecognitionHyperlinkLabel" = "去图文库";
+
+"WhatsNewTitle" = "新功能";
+"WhatsNewStepOneDescription" = "Wacom Inkspace是经过改良的全新应用程序，适用于Bamboo Spark、Folio和Slate。您现在可以使用更多更好用的功能，并充分利用Smartpad的优势。新功能如下所示...";
+"WhatsNewStepTwoDescription" = "全新的编辑功能，可轻松复制、粘贴及移动内容";
+"WhatsNewStepThreeDescription" = "将您的页面导出为透明PNG。";
+"WhatsNewStepFourTitle" = "全功能帐户";
+"WhatsNewStepFourDescription" = "Wacom ID帐户可让您使用Wacom的\n所有功能。\n例如在Wacom Marketplace购买软件及服务、启用如Inkspace等Wacom服务，以及在Wacom商店购物等等。";
+"WhatsNewStepFiveDescription" = "启用Inkspace并探索可利用记录在Smartpad上的创意和笔记完成的所有工作轻松共享您的笔记和绘图，或将这些笔记和绘图导出到您最喜爱的应用程序及其它...可免费使用。请立即加入，尽情挥洒您的想法。";
+
+/* TextRecognitionSearchController */
+"TextRecognitionSearchControllerSearchPrompt" = "搜索页面…";

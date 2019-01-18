@@ -1,0 +1,249 @@
+/*
+ Localizable.strings
+ Mate
+ 
+ Created by Cro on 4/29/15.
+ Copyright (c) 2015 Wacom GmbH. All rights reserved.
+ */
+
+/* Filenames */
+
+"termsOfUseFilename" = "terms_of_use_PT";
+
+/* Global */
+"cancel" = "Cancelar";
+"ok" = "OK";
+"delete" = "Excluir";
+"edit" = "Editar";
+"library" = "Biblioteca";
+"choose_action" = "Escolher ação";
+"draw" = "Desenhar";
+"split" = "Dividir";
+"merge" = "Mesclar";
+"done" = "Concluído";
+"agree" = "Concordo";
+"sign_up" = "CADASTRAR";
+"login" = "FAZER LOGIN";
+"log_out" = "Sair";
+"exit" = "Sair";
+"retry" = "Tentar de novo";
+"learn_more" = "SAIBA MAIS";
+"not_now" = "AGORA NÃO";
+"download" = "DOWNLOAD";
+"waiting" = "Aguardando...";
+"syncing" = "Sincronizando...";
+"generating" = "Gerando";
+"NextButtonLabel" = "PRÓXIMO";
+"FinishButtonLabel" = "CONCLUIR";
+"StartOverHyperlinkLabel" = "RECOMEÇAR";
+"error" = "Erro";
+
+/* Alerts */
+"AlertStartOverTitle" = "RECOMEÇAR";
+"AlertStartOverMessage" = "Recomeçar descartará o progresso atual e retornará ao passo inicial.";\
+
+"AlertConnectionLostTitle" = "Conexão perdida";
+"AlertConnectionLostMessage" = "Por favor, tente novamente";
+
+"AlertLowBatteryTitle" = "Bateria fraca";
+"AlertLowBatteryMessage" = "A bateria do seu Bamboo Spark está acabando. Coloque-o para carregar.";
+
+"AlertMergeNotesTitle" = "Mesclar páginas";
+"AlertMergeNotesMessage" = "Mesclar páginas selecionadas?";
+
+"AlertDeleteNotesTitle" = "Excluir página";
+"AlertDeleteNotesSimpleMessage" = "Excluir páginas selecionadas?";
+"AlertDeleteNotesFromCloudMessage" = "Excluir anotações da sua biblioteca as deletará do seu Inkspace.";
+
+"AlertDeleteSingleNoteTitle" = "Excluir página";
+"AlertDeleteSingleNoteSimpleMessage" = "Tem certeza que deseja excluir esta página?";
+
+"AlertDiscardChangesTitle" = "";
+"AlertDiscardChangesMessage" = "Descartar alterações? O seu progresso será perdido.";
+
+"AlertConfirmLogoutTitle" = "Sair";
+"AlertConfirmLogoutMessage" = "Suas notas locais serão excluídas. Tem certeza que deseja prosseguir?";
+"AlertConfirmLogoutWhileSyncingMessage" = "Há conteúdo sendo sincronizado no momento. Sair agora poderia provocar perda de dados. Tem certeza que deseja prosseguir?";
+
+"AlertSkipCloudAccountTitle" = "Tem certeza que não deseja usar a Wacom Cloud?";
+"AlertSkipCloudAccountMessage" = "A Wacom Cloud permite usar todas as funcionalidades do seu Bamboo Spark. Suas ideias salvas e sincronizadas.";
+
+"AlertNoDeviceFoundTitle" = "Nenhum aparelho encontrado";
+"AlertNoDeviceFoundMessage" = "Verifique se o aparelho está ligado e carregado.";
+
+"AlertDeviceUnpairedTitle" = "Dispositivo não emparelhado";
+"AlertDeviceUnpairedMessage" = "Seu Bamboo Spark está emparelhado com outro dispositivo e será removido deste aparelho.";
+
+"AlertOfflineTitle" = "Falha na ligação da internet";
+
+"AlertMergeOrientationErrorTitle" = "Combinação não permitida";
+"AlertMergeOrientationErrorMessage" = "Não é suportada a combinação de notas com orientação diferente.";
+
+"AlertBluetoothIsDisabledTitle" = "Bluetooth desativado";
+"AlertBluetoothIsDisabledMessage" = "Ative o Bluetooth para se conectar ao Bamboo Spark";
+
+"AlertSaveErrorMessage" = "Não é possível salvar alterações!";
+"AlertLoadStrokesErrorMessage" = "Erro ao carregar traços!";
+
+/* Hints */
+
+"MergeHintTitle" = "Combinar várias páginas em uma";
+"SplitHintTitle" = "Separar página em múltiplas páginas";
+"DragHintTitle" = "Arrastar para selecionar linha do tempo";
+"LongPressHintTitle" = "Pressione e segure para maior precisão";
+"CreatePageHintTitle" = "Dividir página a partir deste ponto";
+/* Months */
+
+
+"January" = "Janeiro";
+"February" = "Fevereiro";
+"March" = "Março";
+"April" = "Abril";
+"May" = "Maio";
+"June" = "Junho";
+"July" = "Julho";
+"August" = "Agosto";
+"September" = "Setembro";
+"October" = "Outubro";
+"November" = "Novembro";
+"December" = "Dezembro";
+
+/* Last Sync Days */
+"today" = "Hoje";
+"yesterday" = "Ontem";
+
+/* ExportNotes */
+"ExportNotesExportAsImage" = "Exportar como imagem";
+"ExportNotesExportAsPDF" = "Exportar como PDF";
+"ExportNotesExportAsWILL" = "Exportar como WILL";
+"ExportNotesOpenWithCompatibleApps" = "Abrir em";
+"ExportNotesMadeWithBambooSpark" = "Made with Bamboo Spark";
+"ExportNotesExportFileName" = "WCM";
+
+/* AgreementScreen */
+"AgreementScreenTitle" = "Termos de uso";
+"AgreementScreenTermsOfServices" = "";
+
+/* CloudPromoScreen */
+"CloudPromoScreenTitle" = "Ideias salvas e sincronizadas";
+"CloudPromoScreenSubtitle" = "Cadastre-se na Wacom Cloud e ative todas as funcionalidades do Bamboo Spark. Sincronize seu conteúdo entre seus aparelhos com 5GB de armazenamento grátis. Visualize e compartilhe suas ideias de qualquer lugar.";
+
+/* WelcomeScreen */
+"WelcomeScreenTitle" = "Bamboo Spark";
+"WelcomeScreenDescription" = "Trazendo ideias do papel para a nuvem e para a vida.";
+"WelcomeScreenButtonLabel" = "CONFIGURAR BAMBOO SPARK";
+"WelcomeScreenHyperlinkLabel" = "Login na Wacom Cloud";
+
+/* AfterLoginScreen */
+"AfterLoginScreenTitle" = "Bamboo Spark";
+"AfterLoginScreenDescription" = "Trazendo ideias do papel para a nuvem e para a vida.";
+"AfterLoginScreenButtonLabel" = "CONFIGURAR BAMBOO SPARK";
+"AfterLoginScreenHyperlinkLabel" = "IR PARA BIBLIOTECA";
+
+/* TurnOnDiscoveryScreen */
+"TurnOnDiscoveryScreenTitle" = "Ligue o Bamboo Spark";
+
+/* DiscoveryPairingScreen */
+"DiscoveryPairingScreenTitle" = "Segure por 5 segundos";
+"DiscoveryPairingScreenDescription" = "Conectando...";
+"DiscoveryPairingScreenButtonLabel" = "Conectando...";
+"DiscoveryPairingScreenListTitle" = "Selecione seu Bamboo Spark";
+
+/* DiscoveryConfirmationScreen */
+"DiscoveryConfirmationScreenTitle" = "Pressione para confirmar";
+"DiscoveryConfirmationScreenDescription" = "Aguardando...";
+
+/* DiscoveryNamingScreen */
+"DiscoveryNamingScreenTitle" = "Digite um nome exclusivo";
+"DiscoveryDefaultName" = "Bamboo Spark";
+
+/* DiscoveryOrientationScreen */
+"DiscoveryOrientationScreenTitle" = "Ajuste a posição do Bamboo Spark";
+
+/* LastStepScreen */
+"LastStepScreenTitle" = "Emparelhado";
+"LastStepScreenDescription" = "O Bamboo Spark foi conectado com sucesso. Agora você pode criar notas com o Bamboo Spark.";
+"LastStepScreenButtonLabel" = "IR PARA BIBLIOTECA";
+
+
+/* MainSettingsScreen */
+"SettingsScreenBackButtonLabel" = "Biblioteca";
+"SettingsScreenFirstSection" = "Geral";
+"SettingsScreenTitle" = "Configurações";
+"SettingsScreenDiscoveryTitle" = "Bamboo Spark";
+"SettingsScreenWacomCloudTitle" = "Wacom Cloud";
+"SettingsScreenSecondSection" = "Suporte";
+"SettingsScreenAboutTitle" = "Sobre";
+"SettingsScreenAccessoriesTitle" = "Acessórios";
+"SettingsScreenOtherAppsTitle" = "Outros aplicativos";
+"SettingsScreenHelpTitle" = "Ajuda";
+
+/* InkspaceSettingsScreen */
+"inkspaceSettingsScreen_inkspace" = "Inkspace";
+"InkspaceSettingsScreenUsernameOption" = "Nome de usuário";
+"InkspaceSettingsScreenLastSyncOption" = "Última sincronização";
+"InkspaceSettingsScreenInkspaceHyperlink" = "Portal web Inkspace";
+"InkspaceSettingsScreenDisableSyncOption" = "Desativar sincronização";
+"InkspaceSettingsScreenEnableSyncOption" = "Ativar sincronização";
+"InkspaceSettingsScreenCellularSyncOption" = "Sincronizar pelo celular";
+
+/* DiscoverySettingsScreen */
+"DiscoverySettingsScreenNameOption" = "Nome";
+"DiscoverySettingsScreenLastSyncOption" = "Última sincronização";
+"DiscoverySettingsScreenBatteryOption" = "Bateria";
+"DiscoverySettingsScreenFirmwareOption" = "Versão do firmware";
+"DiscoverySettingsScreenOrientationOption" = "Orientação do aparelho";
+"DiscoverySettingsScreenBackgroundSyncOption" = "Sincronização em plano de fundo";
+"DiscoverySettingsScreenPairDiscoveryOption" = "Emparelhar Bamboo Spark";
+
+/* AboutSettingsScreen */
+"AboutSettingsScreenTitlle" = "Bamboo Spark V1.0";
+"AboutSettingsScreenDescription" = "Copyright @ 2015 Wacom Company, Limited.";
+"AboutSettingsScreenHyperlink1" = "Bibliotecas de terceiros";
+"AboutSettingsScreenHyperlink2" = "Termos de uso e Política de Privacidade";
+"AboutSettingsScreenHyperlink3" = "Google Analytics";
+
+/* GoogleAnalyticsSettingsScreen */
+"GoogleAnalyticsDescriptionLabel" = "Google Analytics. Ao clicar no botão \"Concordar\" ao instalar o Aplicativo Bamboo Spar, você permitiu o nosso uso de Google Analytics, um serviço web de análise fornecido pela Google Inc., 1600 Amphitheatre Parway, Mountain View, CA 94043, USA (\"Google\"). O Google Analytics nos ajuda a analisar como o Aplicativo Bamboo Spark é usado. Você pode saber mais sobre essa popular ferramenta de análise aqui: http://www.google.com/analytics/index.html. O Google Analytics rastreia interações de visitantes; por exemplo, quais funções do Aplicativo Bamboo Spark os usuários utilizam, quais são as mais populares, em que hora do dia o Aplicativo Bamboo Spark é usado, se visitantes usaram o Aplicativo Bamboo Spark antes e outras informações similares. As informações sobre Seu uso do Aplicativo Bamboo Spark são normalmente transferidas para o servidor Google nos EUA, e são armazenadas aqui. Quando a função de preservação de anonimato de IP estiver ativa no Aplicativo Bamboo Spark, seu endereço de IP irá, dentro dos Estados Membros da União Europeia ou outros estados contratantes do Acordo na Área Econômica Europeia, primeiramente, ser encurtado pelo Google. O Google somente transferirá o endereço IP completo a um servidor Google nos EUA em casos excepcionais, onde este então será encurtado. Todas essas informações serão mantidas em anonimato. O Google leva a privacidade e segurança de Seus dados do Google Analytics seriamente e Você pode saber mais sobre como Seus dados são protegidos aqui: http://www.google.com/analytics/learn/privacy.html. Você pode retirar sua permissão a qualquer momento ao escolher se remover do Google Analytics. A opção de remoção está disponível em Settings/About/Google Analytics (Configurações/Sobre/Google Analytics) dentro do Aplicativo Bamboo Spark. Para se remover do Google Analytics, clique no controle deslizante que é apresentado.";
+
+/* AccessoriesSettingsScreen */
+"AccessoriesSettingsScreenTitle" = "Acessórios Bamboo Spark";
+"AccessoriesSettingsScreenDescription" = "Obtenha acessórios essenciais para seu Bamboo Spark";
+"accessoriesSettingsScreen_view_all" = "VIEW ALL";
+
+/* OtherAppsSettingsScreen */
+"OtherAppsSettingsScreenTitle" = "Bamboo Paper";
+"OtherAppsSettingsScreenDescription" = "Continue trabalhando nas suas anotações, esboços e desenhos Bamboo Spark no app Bamboo Paper com mais cores e ótimas ferramentas.";
+
+/* CreateFirstNoteScreens */
+"CreateFirstNoteScreensFirstTitle" = "Escrever no Bamboo Spark";
+"CreateFirstNoteScreensSecondTitle" = "Conclua a página";
+"CreateFirstNoteScreensThirdTitle" = "Sincronização automática";
+
+/* LibraryViewController */
+"LibrarySelectToolbarButton" = "Selecionar";
+"EmptyLibraryMessage" = "Sua biblioteca está vazia";
+"LibraryCreateNoteButtonLabel" = "CRIAR NOTA";
+
+
+/* PreviewViewController */
+
+/* SplitModeViewController */
+"SplitModeSplitButtonLabel" = "Dividir página";
+
+
+/* InkEditorViewController */
+
+/* ProgressIndicatorView */
+"ProgressIndicatorSyncCompleted" = "Sincronização Bamboo Spark concluída.";
+
+
+/* ProgressSyncBarView */
+"ProgressSyncBarDownloadingLabel" = "Baixando [X] de [Y]";
+
+/* PromoLEDTipsViewController */
+"PromoLEDTip1Title" = "Luz verde";
+"PromoLEDTip1Description" = "O Bamboo Spark está ligado e a página atual está vazia.";
+"PromoLEDTip2Title" = "Luz azul";
+"PromoLEDTip2Description" = "O Bamboo Spark está ligado e há conteúdo na página atual.";
+

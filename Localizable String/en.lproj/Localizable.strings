@@ -1,0 +1,381 @@
+/*
+  Localizable.strings
+  Mate
+
+  Created by Cro on 4/29/15.
+  Copyright (c) 2015 Wacom GmbH. All rights reserved.
+*/
+
+
+/* Filenames */
+
+"termsOfUseFilename" = "terms_of_use_EN";
+
+/* Global */
+"cancel" = "Cancel";
+"ok" = "OK";
+"delete" = "Delete";
+"edit" = "Edit";
+"library" = "Library";
+"choose_action" = "Choose action";
+"draw" = "Draw";
+"split" = "Split";
+"merge" = "Combine";
+"done" = "Done";
+"agree" = "Agree";
+"sign_up" = "SIGN UP";
+"login" = "LOGIN";
+"log_out" = "Log out";
+"log_in" = "Log in";
+"exit" = "Exit";
+"retry" = "Retry";
+"learn_more" = "LEARN MORE";
+"not_now" = "NOT NOW";
+"download" = "DOWNLOAD";
+"waiting" = "Waiting…";
+"syncing" = "Syncing...";
+"generating" = "Generating";
+"NextButtonLabel" = "NEXT";
+"FinishButtonLabel" = "FINISH";
+"StartOverHyperlinkLabel" = "START OVER";
+"error" = "Error";
+"search" = "Search";
+"export" = "Export";
+"save" = "Save";
+"forget" = "Forget";
+"verify" = "Verify";
+"use_offline" = "Use offline";
+"discard" = "Discard";
+"copy" = "Copy";
+"paste" = "Paste";
+"cut" = "Cut";
+"duplicate_to_new_page" = "Duplicate to new page";
+"dismiss" = "Dismiss";
+"redo" = "Redo";
+
+
+
+
+/* Alerts */
+"AlertStartOverTitle" = "START OVER";
+"AlertStartOverMessage" = "Starting over will dismiss any current progress and return to the initial step.";
+
+"AlertServerErrorTitle" = "";
+"AlertServerErrorMessage" = "Operation failed.";
+
+"AlertConnectionLostTitle" = "Connection Lost";
+"AlertConnectionLostMessage" = "Please try again";
+
+"AlertLowBatteryTitle" = "Low Battery";
+"AlertLowBatteryMessage" = "Your Bamboo smartpad is running out of battery. Please charge it.";
+
+"AlertMergeNotesTitle" = "Combine Pages";
+"AlertMergeNotesMessage" = "Combine selected pages?";
+
+"AlertDeleteNotesTitle" = "Delete Page";
+"AlertDeleteNotesSimpleMessage" = "Delete selected pages?";
+"AlertDeleteNotesFromCloudMessage" = "Deleting notes from your library will also delete them from your Inkspace work space.";
+
+"AlertDeleteSingleNoteTitle" = "Delete Page";
+"AlertDeleteSingleNoteSimpleMessage" = "Are you sure you want to delete the page?";
+ 
+"AlertDiscardChangesTitle" = "";
+"AlertDiscardChangesMessage" = "Discard changes? Your progress will be lost.";
+
+"AlertConfirmLogoutTitle" = "Sign out";
+"AlertConfirmLogoutMessage" = "Your local notes will be deleted. Are you sure you want to continue?";
+"AlertConfirmLogoutWhileSyncingMessage" = "Some of your content is being synced at the moment. Signing out might lead to data loss. Are you sure you want to continue?";
+
+"AlertSkipCloudAccountTitle" = "Are you sure you don't want to enable Inkspace?";
+"AlertSkipCloudAccountMessage" = "Enable Inkspace and easily share your notes and drawings or export them to your favourite apps and more...";
+
+"AlertNoDeviceFoundTitle" = "No Device Found";
+"AlertNoDeviceFoundMessage" = "Make sure your deviced is switched on and charged.";
+
+"AlertDeviceUnpairedTitle" = "Device Unpaired";
+"AlertDeviceUnpairedMessage" = "Your Bamboo smartpad is paired to another device and will be removed from this device.";
+
+"AlertOfflineTitle" = "No Internet Connection";
+
+"AlertForceUpgradeTitle" = "Update Required";
+"AlertForceUpgradeMessage" = "There is a required update for Inkspace available. If you wish to continue using Inkspace please update now.";
+"AlertForceUpgradeButton" = "Sure";
+"AlertForceUpgradeCancel" = "Cancel";
+
+"AlertMergeOrientationErrorTitle" = "Combine not allowed";
+"AlertMergeOrientationErrorMessage" = "Combining of notes with different orientation is not supported.";
+"AlertMergeSizeErrorTitle" = "Combine not allowed";
+"AlertMergeSizeErrorMessage" = "Combining of notes with different size is not supported.";
+
+
+
+"AlertBluetoothIsDisabledTitle" = "Bluetooth turned off";
+"AlertBluetoothIsDisabledMessage" = "Turn on Bluetooth to connect with Bamboo smartpad";
+
+
+"AlertSaveErrorMessage" = "Changes cannot be saved!";
+"AlertLoadStrokesErrorMessage" = "Strokes failed to load!";
+
+"AlertSesionExpiredTitle" = "Session expired";
+"AlertSesionExpiredErrorMessage" = "Your Inkspace session has expired because of a change to your email address or password. After resolving this change your entire library will need to be re-synced. You will now be logged out.";
+
+"AlertSignUpToUseSearchTitle" = "Account required";
+"AlertSignUpToUseSearchErrorMessage" = "You need a Inkspace account to use search";
+
+"AlertNoTextMatchTitle" = "No match";
+"AlertNoTextMatchErrorMessage" = "Check spelling or try a different word";
+
+"AlertNeedsInternetTitle" = "No internet connection";
+"AlertNeedsInternetToUseSearchErrorMessage" = "You need an internet connection to use search";
+"AlertNeedsInternetToExportTextErrorMessage" = "You need an internet connection to export text";
+
+"AlertStorageLimitExceededTitle" = "Storage limit exceeded";
+"AlertStorageLimitExceededMessage" = "You have exceeded your storage limit on inkspace. Please remove some of your old documents to be able to synchonize your documents.";
+
+"AlertMailNotVerifiedTitle" = "Mail not verified";
+"AlertMailNotVerifiedMessage" = "To complete the registration please verify your email address";
+
+"AlertPastingStrokeExceedBoundsTitle" = "Image too big";
+"AlertPastingStrokeExceedBoundsMessage" = "The image you are trying to paste is too big and it doesn't fit the current page. Try selecting smaller area.";
+
+"AlertDuplicatePageTitle" = "Save Changes";
+"AlertDuplicatePageMessage" = "Do you want to save changes to the current page before duplication the selection to new page?";
+
+"AlertPlanExpiredTitle" = "Plan Expired";
+"AlertPlanExpiredMessage" = "Your Inkspace plan has expired and some of the features will be limited";
+
+"AlertForgetDeviceTitle" = "Forget Device";
+"AlertForgetDeviceMessage" = "Do you want to forget your currently connected device?";
+
+
+
+/* Hints */
+
+"MergeHintTitle" = "Combine couple of pages in single one";
+"SplitHintTitle" = "Separate page into multiple pages";
+"DragHintTitle" = "Drag to select timeline";
+"LongPressHintTitle" = "Long press for better precision";
+"CreatePageHintTitle" = "Split page from this point";
+
+/* Months */
+
+
+"January" = "January";
+"February" = "February";
+"March" = "March";
+"April" = "April";
+"May" = "May";
+"June" = "June";
+"July" = "July";
+"August" = "August";
+"September" = "September";
+"October" = "October";
+"November" = "November";
+"December" = "December";
+
+/* Last Sync Days */
+"today" = "Today";
+"yesterday" = "Yesterday";
+
+/* ExportNotes */
+"ExportNotesExportAsText" = "Ink to text";
+"ExportNotesExportAsPNG" = "Export as PNG";
+"ExportNotesExportAsJPG" = "Export as JPG";
+"ExportNotesExportAsPDF" = "Export as PDF";
+"ExportNotesExportAsWILL" = "Export as WILL";
+"ExportNotesExportAsSVG" = "Ink to Vector";
+
+"ExportNotesOpenWithCompatibleApps" = "Open in";
+"ExportNotesMadeWithBambooSpark" = "Made with Inkspace";
+"ExportNotesExportFileName" = "WCM";
+
+
+/* AgreementScreen */
+"AgreementScreenTitle" = "Terms of Use";
+"AgreementScreenTermsOfServices" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.\n\n Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n\n Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda. \n\nLorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.\n\n Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n\n Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* CloudPromoScreen */
+"CloudPromoScreenTitle" = "Get your ideas further";
+"CloudPromoScreenSubtitle" = "Enable Inkspace and easily share your notes and drawings or export them to your favourite apps and more... It´s free. Join today and do more with your ideas.";
+
+/* ManualSyncScreen */
+"ManualSyncScreenTitle" = "Manual sync";
+"ManualSyncScreenSubtitle" = " Your device will sync automatically every 5 minutes. You can manually sync at any time by pressing the page button.";
+"ManualSyncButtonDontShow" = "Don't show";
+
+/* WelcomeScreen */
+"WelcomeScreenTitle" = "Wacom Inkspace";
+"WelcomeScreenDescription" = "Do more with your notes and drawings";
+"WelcomeScreenButtonLabel" = "Connect your device";
+"WelcomeScreenHyperlinkLabel" = "Login with your Wacom ID";
+
+/* AfterLoginScreen */
+"AfterLoginScreenTitle" = "Inkspace";
+"AfterLoginScreenDescription" = "Making ideas from paper, to cloud, to life.";
+"AfterLoginScreenButtonLabel" = "SET UP BAMBOO SPARK";
+"AfterLoginScreenHyperlinkLabel" = "GO TO LIBRARY";
+
+/* TurnOnDiscoveryScreen */
+"TurnOnDiscoveryScreenTitle" = "Turn on your Bamboo smartpad";
+
+/* DiscoveryPairingScreen */
+"DiscoveryPairingScreenTitle" = "Hold for 6 Seconds";
+"DiscoveryPairingScreenDescription" = "Connecting…";
+"DiscoveryPairingScreenButtonLabel" = "Connecting…";
+"DiscoveryPairingScreenListTitle" = "Select your Bamboo smartpad";
+
+/* DiscoveryConfirmationScreen */
+"DiscoveryConfirmationScreenTitle" = "Tap to confirm";
+
+"DiscoveryConfirmationScreenDescription" = "Waiting…";
+
+/* DiscoveryNamingScreen */
+"DiscoveryNamingScreenTitle" = "Enter a unique name";
+"DiscoveryDefaultName" = "Bamboo smartpad";
+ 
+/* DiscoveryOrientationScreen */
+"DiscoveryOrientationScreenTitle" = "Select Bamboo smartpad orientation";
+
+/* LastStepScreen */
+"LastStepScreenTitle" = "Pairing Successful";
+"LastStepScreenDescription" = "Your Bamboo smartpad is successfully connected. Now you can upload notes to Inkspace app.";
+"LastStepScreenButtonLabel" = "DONE";
+
+
+/* MainSettingsScreen */
+"SettingsScreenBackButtonLabel" = "Library";
+"SettingsScreenFirstSection" = "General";
+"SettingsScreenTitle" = "Settings";
+"SettingsScreenDiscoveryTitle" = "Bamboo smartpad";
+"SettingsScreenWacomCloudTitle" = "Inkspace";
+"SettingsScreenSecondSection" = "Support";
+"SettingsScreenAboutTitle" = "About";
+"SettingsScreenAccessoriesTitle" = "Accessories";
+"SettingsScreenOtherAppsTitle" = "Other Apps";
+"SettingsScreenHelpTitle" = "Help";
+
+/* InkspaceSettingsScreen */
+"inkspaceSettingsScreen_inkspace" = "Inkspace";
+"InkspaceSettingsScreenUsernameOption" = "User name";
+"InkspaceSettingsScreenLastSyncOption" = "Last sync";
+
+"InkspaceSettingsScreenExportLanguageOption" = "Export Language";
+
+"InkspaceSettingsScreenInkspaceHyperlink" = "Inkspace web portal"; 
+"InkspaceSettingsScreenDisableSyncOption" = "Disable sync";
+"InkspaceSettingsScreenEnableSyncOption" = "Enable sync";
+"InkspaceSettingsScreenCellularSyncOption" = "Sync over cellular";
+"InkspaceSettingsScreenMyAccountHyperlink" = "Manage my Inkspace";
+"InkspaceSettingsScreenUsedStorageOption" = "Used Storage";
+
+/* DiscoverySettingsScreen */
+"DiscoverySettingsScreenNameOption" = "Name";
+"DiscoverySettingsScreenLastSyncOption" = "Last sync";
+"DiscoverySettingsScreenBatteryOption" = "Battery";
+"DiscoverySettingsScreenFirmwareOption" = "Firmware version";
+"DiscoverySettingsScreenOrientationOption" = "Device orientation";
+"DiscoverySettingsScreenBackgroundSyncOption" = "Background sync";
+"DiscoverySettingsScreenPairDiscoveryOption" = "Pair Bamboo smartpad";
+
+/* AboutSettingsScreen */  
+"AboutSettingsScreenTitlle" = "Wacom Inkspace v";
+"AboutSettingsScreenDescription" = "Copyright © 2016 Wacom Company, Limited. All rights reserved.";
+"AboutSettingsScreenHyperlink1" = "Third Party Libraries";
+"AboutSettingsScreenHyperlink2" = "Terms of use and Privacy Policy";
+"AboutSettingsScreenHyperlink3" = "Google Analytics";
+
+/* GoogleAnalyticsSettingsScreen */
+"GoogleAnalyticsDescriptionLabel" = "Google Analytics. By clicking the “Agree”-Button when installing Inkspace App, you have consented to our use of Google Analytics, a web analysis service provided by Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA (\"Google\"). Google Analytics helps us analyse how Inkspace App is used. You can find out more about this popular analytics tool here: http://www.google.com/analytics/index.html. Google Analytics tracks visitor interactions; for example which functions of Inkspace App our users use, which are most popular, what time of day Inkspace App is used, whether visitors have used Inkspace App before and other similar information. The information regarding Your use of Inkspace App is normally transferred to a Google server in the USA, and is stored there. As the IP anonymize function is activated in Inkspace App, Your IP address will, within Member States of the European Union or other contracting states of the Agreement on the European Economic Area, first be shortened by Google. Only in exceptional cases will Google transfer the full IP address to a Google server in the USA, and will shorten it there. All of this information is anonymised. Google takes the privacy and security of Your Google Analytics data seriously and You can find out more about how it protects Your data here: http://www.google.com/analytics/learn/privacy.html.You can withdraw your consent at any time by opting-out of the use of Google Analytics. The opt-out option is available under /Settings/About/Google Analytics/ within the Inkspace App. In order to opt out, click on the slide control that is presented there to deactive Google Analytics.";
+
+/* AccessoriesSettingsScreen */
+"AccessoriesSettingsScreenTitle" = "Bamboo smartpad Accessories ";
+"AccessoriesSettingsScreenDescription" = "Discover essential accessories for your Bamboo smartpad on our web page";
+"accessoriesSettingsScreen_view_all" = "VIEW ALL";
+
+/* OtherAppsSettingsScreen */
+"OtherAppsSettingsScreenTitle" = "Bamboo Paper";
+"OtherAppsSettingsScreenDescription" = "Turn your mobile device into a paper notebook and capture your ideas everywhere, anytime. You can also use Bamboo Paper to edit and refine your Bamboo Spark/Folio/Slate.";
+
+/* CreateFirstNoteScreens */
+"CreateFirstNoteScreensFirstTitle" = "Write on your Bamboo smartpad";
+
+"CreateFirstNoteScreensSecondTitle" = "Press page button";
+
+"CreateFirstNoteScreensThirdTitle" = "Auto sync";
+
+/* LibraryViewController */
+"LibrarySelectToolbarButton" = "Select";
+"EmptyLibraryMessage" = "Create your first note";
+"LibraryCreateNoteButtonLabel" = "LET’S GO";
+
+/* PreviewViewController */
+
+/* LiveMode */
+"LiveModeTitle" = "Live Mode";
+"LiveModeAlertConnectionInProgressTitle" = "Syncing in Progress";
+"LiveModeAlertConnectionInProgressMessage" = "Please wait until your device syncs before starting Live Mode";
+
+"LiveModeConnectionUserPressMessage" = "Tap to start";
+
+"LiveModeProgressIndicatorSavingPage" = "Saving page...";
+
+"LiveModeFTEDescription" = "During Live Mode everything you write on your device will be mirrored on the screen.";
+
+"LiveModeAlertConnectionLostTitle" = "Connection lost";
+"LiveModeAlertConnectionLostMessage" = "Connection with your device was lost. Current progress will be saved.";
+
+"LiveModeHintMessage" = "Live Mode";
+"LiveModeHintDescription" = "Double tap on screen to exit";
+
+
+/* SplitModeViewController */
+"SplitModeSplitButtonLabel" = "Split Page";
+
+
+/* InkEditorViewController */
+
+
+/* ProgressIndicatorView */
+"ProgressIndicatorSyncCompleted" = "Bamboo smartpad sync completed";
+
+
+/* ProgressSyncBarView */
+"ProgressSyncBarDownloadingLabel" = "Downloading [X] of [Y]";
+
+
+/* Bluetooth State */
+
+/* PromoLEDTipsViewController */
+"PromoLEDTip1Title" = "Green LED";
+"PromoLEDTip1Description" = "Bamboo smartpad is on and current page is empty.";
+"PromoLEDTip2Title" = "Blue LED";
+"PromoLEDTip2Description" = "Bamboo smartpad is on and current page has content.";
+
+/* TextRecognitionLanguageSettingController */
+"TextRecognitionExportLanguageSetting" = "Export Language";
+"TextRecognitionLanguageSettingWaitngForResponse" = "Getting your language…";
+
+/* TextRecognitionExportPreviewController */
+"TextRecognitionExportPreviewTitle" = "Export as text";
+"TextRecognitionExportPreviewLanguageOption" = "Language";
+
+/* WhatsNewTextRecognitionController */
+
+"WhatsNewTextRecognitionTitle" = "What's New!";
+"WhatsNewTextRecognitionDescription" = "Text Search and Export now available in Inkspace free for a limited time.";
+"WhatsNewTextRecognitionButtonLabel1" = "Activate";
+"WhatsNewTextRecognitionButtonLabel2" = "Set Language";
+"WhatsNewTextRecognitionHyperlinkLabel" = "GO TO LIBRARY";
+
+"WhatsNewTitle" = "What's New";
+"WhatsNewStepOneDescription" = "Wacom Inkspace is the brand new and improved app for your Bamboo Spark, Folio and Slate. You can now enjoy more and better features and get more out of your Smartpad. Here is what´s new…";
+"WhatsNewStepTwoDescription" = "New editing features to easily copy, paste and move content";
+"WhatsNewStepThreeDescription" = "Export your pages as transparent PNG.";
+"WhatsNewStepFourTitle" = "One account for all";
+"WhatsNewStepFourDescription" = "The Wacom ID is your account for everything you do with Wacom.\nShop software and services in the Wacom Marketplace, enable Wacom services such as Inkspace, buy from the Wacom Store, and more.";
+"WhatsNewStepFiveDescription" = "Enable Inkspace and discover all you can do with your ideas captured on your Smartpad. Easily share your notes and drawings or export them to your favourite apps and more...It´s free. Join today and do more with your ideas.";
+
+
+/* TextRecognitionSearchController */
+"TextRecognitionSearchControllerSearchPrompt" = "Search pages...";
+
